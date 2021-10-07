@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+pylint = "*"
+django-allauth = "*"
+django-crispy-forms = "*"
+django-countries = "*"
+stripe = "*"
+
+[requires]
+python_version = "3.8"
